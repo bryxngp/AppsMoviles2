@@ -19,7 +19,7 @@ export default function WelcomeScreen({ navigation }: any) {
             <Text style={{ color: "white", fontSize: 30 }}>"WELCOME"</Text>
 
             <TouchableOpacity
-                onPress={() => navigation.navigate("Local")}
+                onPress={() => navigation.navigate("Tab")}
                 style={styles.btn}>
                 <View style={{flexDirection: "row-reverse"}}>
                     <Text style={{fontSize:25}}>LOCAL</Text>
